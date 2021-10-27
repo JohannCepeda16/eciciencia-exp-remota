@@ -1,0 +1,15 @@
+.Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.img{
+    width: 45vw;
+    align-self: center;
+}
+
+.title{
+    background-color: rebeccapurple;
+}
