@@ -5,18 +5,20 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import CalendarToday from "@mui/icons-material/CalendarToday";
 import colors from "../../../commons/constants/colors";
+import CustomMenuItem from "../../../commons/components/menu/CustomMenuItem";
 
 export default function TemporaryDrawer() {
   const list = () => (
     <List>
       {["Conograma Día 1", "Cronograma Día 2", "Cronograma Día 3"].map(
-        (text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              <CalendarToday />
-            </ListItemIcon>
-            <ListItemText primary={text} style={{ color: "black" }} />
-          </ListItem>
+        (text: string, index) => (
+          <CustomMenuItem
+            title={text}
+            options={[
+              { title: "Concursos", action: null },
+              { title: "Conferencias", action: null },
+            ]}
+          />
         )
       )}
     </List>
@@ -27,12 +29,14 @@ export default function TemporaryDrawer() {
       <Drawer variant="permanent" anchor="left">
         <div
           style={{
-            padding: "10px",
+            maxWidth: "300px",
             height: "100vh",
-            backgroundColor: colors.PRIMARY,
+            backgroundColor: colors.SECONDARY,
           }}
         >
-          <h1 style={{ textAlign: "center" }}>Cronograma</h1>
+          <h1 style={{ textAlign: "center", color: colors.PRIMARY }}>
+            Cronograma
+          </h1>
           {list()}
         </div>
       </Drawer>

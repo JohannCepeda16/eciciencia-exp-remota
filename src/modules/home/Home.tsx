@@ -8,9 +8,15 @@ export default function Home() {
       <Grid item xs={2} md={2} lg={2}>
         <Menu />
       </Grid>
-      <Grid item xs={10} md={10} lg={10}>
+      <Grid item xs={12} md={10} lg={10} style={{ alignSelf: "center" }}>
         <Banner />
-        <div style={{ padding: "20px" }}>
+        <div
+          style={{
+            margin: "20px",
+            alignSelf: "center",
+            width: "95%",
+          }}
+        >
           <h1>Cronograma nivel 1</h1>
         </div>
       </Grid>
