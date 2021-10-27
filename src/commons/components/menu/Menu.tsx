@@ -1,9 +1,5 @@
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
-import CalendarToday from "@mui/icons-material/CalendarToday";
 import colors from "../../../commons/constants/colors";
 import CustomMenuItem from "../../../commons/components/menu/CustomMenuItem";
 
