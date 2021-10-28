@@ -1,5 +1,6 @@
 export interface ICard{
     id: string;
+    type: string;
     title: string;
     day: number;
     date: string;

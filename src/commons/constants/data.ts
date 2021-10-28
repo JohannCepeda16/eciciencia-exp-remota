@@ -3,6 +3,7 @@ import { ICard } from "../types/ICard";
 const data: ICard[] = [
   {
     id: "1",
+    type: "Conferencia",
     day: 1,
     date: "3/11/2021",
     hour: "8:00-9:00",
@@ -14,6 +15,7 @@ const data: ICard[] = [
   },
   {
     id: "2",
+    type: "Conferencia",
     day: 1,
     date: "3/11/2021",
     hour: "10:00-11:30",
@@ -25,6 +27,7 @@ const data: ICard[] = [
   },
   {
     id: "3",
+    type: "Evento",
     day: 1,
     date: "3/11/2021",
     hour: "Todo el día",
@@ -36,6 +39,7 @@ const data: ICard[] = [
   },
   {
     id: "4",
+    type: "Conferencia",
     day: 1,
     date: "3/11/2021",
     hour: "2:00 a 3:00 p.m.",
@@ -47,18 +51,21 @@ const data: ICard[] = [
   },
   {
     id: "5",
+    type: "Conferencia",
     day: 1,
     date: "3/11/2021",
     hour: "4:00 a 5:30 p.m.",
     modality: "Remoto",
     title:
-      "Economía circular a través de la industria química: Caso de estudio ANDERCOL",
+      "Reciclaje químico para el Desarrollo de las soluciones de valor agregado en residuos de PET con bajo porcentaje de reciclabidad",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Findustria_quimica.min.jpg?alt=media&token=7bb1f424-9608-443c-8cc8-0bacb11cedc3",
-    meeting: "",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDZkOTEzYzgtNDliYS00Y2E2LTlmZTctOWE0NWVjMGI5OGJk%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "6",
+    type: "Evento",
     day: 1,
     date: "3/11/2021",
     hour: "8:00 a.m. a 5:00 p.m",
@@ -70,6 +77,7 @@ const data: ICard[] = [
   },
   {
     id: "7",
+    type: "Conferencia",
     day: 1,
     date: "3/11/2021",
     hour: "2:00 a 3:00 p.m",
@@ -82,6 +90,7 @@ const data: ICard[] = [
   },
   {
     id: "8",
+    type: "Conferencia",
     day: 2,
     date: "4/11/2021",
     hour: "10:00 a 11:00 a.m.",
@@ -93,6 +102,7 @@ const data: ICard[] = [
   },
   {
     id: "9",
+    type: "Evento",
     day: 2,
     date: "4/11/2021",
     hour: "Todo el día",
@@ -105,6 +115,7 @@ const data: ICard[] = [
   },
   {
     id: "10",
+    type: "Panel",
     day: 2,
     date: "4/11/2021",
     hour: "10:00 a.m. a 12:00 m.",
@@ -113,10 +124,12 @@ const data: ICard[] = [
       "Perspectivas sobre el impacto de la economía circular y naranja en entornos de investigación, desarrollo e innovación y sus sinergias dentro del sistema de ciencia, tecnología e innovación",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2FPerspectivas_sobre_el_impacto.jpg?alt=media&token=b5b603af-4fa1-4e37-a91f-34c5952b9000",
-    meeting: "",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjhkNDMzNzktMDhhNy00ZDMyLWE0ZjQtMjFlMzU2ODkzNDgz%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "11",
+    type: "Conferencia",
     day: 2,
     date: "4/11/2021",
     hour: "11:30 a.m. a 12:30 p.m.",
@@ -125,10 +138,12 @@ const data: ICard[] = [
       "Normalización en gestión ambiental- Visión compartida para un mundo mejor",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fgestion_ambiental.jpg?alt=media&token=da04bffc-ad2e-4d38-a1e6-0048dfea59d2",
-    meeting: "",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTU2M2NkZWMtYzQ4ZS00Mzc2LTg3MWMtOTM0Y2I3YWFhNzc1%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "12",
+    type: "Conferencia",
     day: 2,
     date: "4/11/2021",
     hour: "4:00 a 5:00 p.m.",
@@ -137,10 +152,12 @@ const data: ICard[] = [
       "Empresas prestadoras del servicio público de aseo como fuentes de sostenibilidad y economía circular",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fempresa_aseo.jpg?alt=media&token=9b206332-39bc-4c7d-bd0c-f94a99f3a3a9",
-    meeting: "",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzc1Y2MyZjgtYzUyOC00MjVjLWJiY2QtOGU3N2I1MWFmODdl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "13",
+    type: "Conferencia",
     day: 3,
     date: "5/11/2021",
     hour: "10:00 a 11:00 a.m.",
@@ -153,6 +170,7 @@ const data: ICard[] = [
   },
   {
     id: "14",
+    type: "Evento",
     day: 3,
     date: "5/11/2021",
     hour: "Todo el día",
@@ -165,6 +183,7 @@ const data: ICard[] = [
   },
   {
     id: "15",
+    type: "Conferencia",
     day: 3,
     date: "5/11/2021",
     hour: "2:30 a 4:00 p.m.",
@@ -172,10 +191,12 @@ const data: ICard[] = [
     title: "Ganadería colombiana sostenible",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fganaderia.jpg?alt=media&token=882692d1-66cd-4179-ac03-a64e28eacd62",
-    meeting: "",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjMxYTQ1ZWItYzM4Mi00YTE1LWI5MzAtNGM5YTExYmFmMmVi%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "16",
+    type: "Conferencia",
     day: 3,
     date: "5/11/2021",
     hour: "2:00 a 3:30 p.m.",
@@ -187,6 +208,7 @@ const data: ICard[] = [
   },
   {
     id: "17",
+    type: "Evento",
     day: 3,
     date: "5/11/2021",
     hour: "3:30 a 5:00 p.m. ",
@@ -194,7 +216,8 @@ const data: ICard[] = [
     title: "De la Escuela a la U - El Camino al reconocimiento",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Funiversidad_Escuela_fdtFnvv.min-700x600.jpg?alt=media&token=37f16a35-85c7-44f8-adfa-0c9606541dbf",
-    meeting: "https://forms.office.com/pages/responsepage.aspx?id=hAVkUEAqFkKoS5s-4PP2zwK_lIlLn6JCnxLIy24gSJxUMTg5MUhIMkIzUzhRMTVRRVZBNkhaSjBJOSQlQCNjPTEu",
+    meeting:
+      "https://forms.office.com/pages/responsepage.aspx?id=hAVkUEAqFkKoS5s-4PP2zwK_lIlLn6JCnxLIy24gSJxUMTg5MUhIMkIzUzhRMTVRRVZBNkhaSjBJOSQlQCNjPTEu",
   },
 ];
 export default data;

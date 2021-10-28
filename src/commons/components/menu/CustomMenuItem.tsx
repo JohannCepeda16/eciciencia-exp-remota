@@ -13,10 +13,11 @@ import colors from "../../constants/colors";
 export interface ICustomMenuItem {
   title: string;
   options: any[];
+  filterAction: any;
 }
 
 export default function CustomMenuItem(props: ICustomMenuItem) {
-  const { title, options } = props;
+  const { title, options, filterAction } = props;
   const [open, setOpen] = React.useState(false);
 
   const handleClick = () => {
@@ -27,23 +28,20 @@ export default function CustomMenuItem(props: ICustomMenuItem) {
     <div>
       <ListItemButton onClick={handleClick}>
         <ListItemIcon>
-          <CalendarToday style={{ color: colors.PRIMARY }} />
+          <CalendarToday style={{ color: colors.SECONDARY }} />
         </ListItemIcon>
         <ListItemText primary={title} style={{ color: "white" }} />
         {open ? (
-          <ExpandLess style={{ color: colors.PRIMARY }} />
+          <ExpandLess style={{ color: colors.SECONDARY }} />
         ) : (
-          <ExpandMore style={{ color: colors.PRIMARY }} />
+          <ExpandMore style={{ color: colors.SECONDARY }} />
         )}
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>
         <List component="div" disablePadding>
           {options.map((option) => (
-            <ListItemButton onClick={() => option.action} sx={{ pl: 4 }}>
-              <ListItemText
-                primary={option.title}
-                style={{ textAlign: "center", color: colors.THIRD }}
-              />
+            <ListItemButton onClick={() => filterAction(option.id, option.value)} sx={{ pl: 4 }}>
+              <ListItemText primary={option.title} style={{ color: "black" }} />
             </ListItemButton>
           ))}
         </List>

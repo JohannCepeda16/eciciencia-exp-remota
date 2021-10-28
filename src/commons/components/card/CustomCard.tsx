@@ -11,6 +11,8 @@ import { useEffect, useState } from "react";
 import { Button } from "@mui/material";
 import "./CustomCard.css";
 import { ICard } from "../../types/ICard";
+import AttachFileIcon from "@mui/icons-material/AttachFile";
+import colors from "../../../commons/constants/colors";
 
 export interface IProps {
   card: ICard;
@@ -22,55 +24,52 @@ export default function CustomCard(props: any) {
   return (
     <Card
       sx={{
-        minWidth: 345,
-        maxWidth: 345,
+        minWidth: 400,
+        maxWidth: 400,
         maxHeight: 600,
       }}
+      style={{
+        backgroundColor: "#264474",
+        margin: "10px",
+      }}
     >
-      <div className="tooltip">
-        <span className="tooltiptext">{card.title}</span>
-        <CardHeader
-          avatar={
-            <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-              L
-            </Avatar>
-          }
-          title={
-            card.title.length > 50
-              ? card.title.slice(0, 50) + "..."
-              : card.title
-          }
-          style={{
-            fontFamily: "Domine",
-          }}
-          subheader={card.date}
-        />
+      <div>
+        <div className="tooltip">
+          <strong className="tooltiptext">{card.title}</strong>
+          <CardHeader
+            title={
+              card.title.length > 20
+                ? card.title.slice(0, 20) + "..."
+                : card.title
+            }
+            style={{
+              width: "100%",
+              textAlign: "center",
+              color: "white",
+            }}
+          />
+        </div>
       </div>
       <a target="_blank" href={card.urlPic}>
-        <CardMedia component="img" height="194" image={card.urlPic} />
+        <CardMedia component="img" height="200px" image={card.urlPic} />
       </a>
       <CardContent>
-        <textarea
-          style={{
-            textAlign: "justify",
-            width: "100%",
-            height: "150px",
-            resize: "none",
-            fontSize: "16px",
-            backgroundColor: "white",
-            fontFamily: "Domine",
-          }}
-          value={card.date}
-          disabled
-          readOnly
-        />
+        <strong>Fecha: </strong>
+        <label>{card.date}</label>
+        <div></div>
+        <strong>Hora: </strong>
+        <label>{card.hour}</label>
       </CardContent>
       <CardActions disableSpacing style={{ marginTop: "auto" }}>
         <IconButton onClick={() => null} aria-label="like">
-          <FavoriteIcon style={{ color: "red" }} />
+          <AttachFileIcon style={{ color: "white" }} />
         </IconButton>
-        <Button href={card.meeting} target="_blank">
-          Visualizar PDF
+        <Button
+          href={card.meeting}
+          target="_blank"
+          style={{ backgroundColor: colors.PRIMARY, color: "white" }}
+        >
+          Ir a a la reunión
         </Button>
       </CardActions>
     </Card>
