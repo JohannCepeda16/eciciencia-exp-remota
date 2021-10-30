@@ -28,13 +28,13 @@ export default function CustomMenuItem(props: ICustomMenuItem) {
     <div>
       <ListItemButton onClick={handleClick}>
         <ListItemIcon>
-          <CalendarToday style={{ color: colors.SECONDARY }} />
+          <CalendarToday style={{ color: colors.PRIMARY }} />
         </ListItemIcon>
         <ListItemText primary={title} style={{ color: "white" }} />
         {open ? (
-          <ExpandLess style={{ color: colors.SECONDARY }} />
+          <ExpandLess style={{ color: colors.PRIMARY }} />
         ) : (
-          <ExpandMore style={{ color: colors.SECONDARY }} />
+          <ExpandMore style={{ color: colors.PRIMARY }} />
         )}
       </ListItemButton>
       <Collapse in={open} timeout="auto" unmountOnExit>

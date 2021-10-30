@@ -255,18 +255,6 @@ const data: ICard[] = [
     meeting: "",
   },
   {
-    id: "21",
-    type: "Concurso",
-    day: 2,
-    date: "4/11/2021",
-    hour: "11:30 a 1:00 p.m.",
-    modality: "Remoto",
-    title: "Formula S.A Escuela Rubber Band (M)",
-    urlPic: "",
-    meeting:
-      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjY0Y2JiZjYtOGEzMC00OTZlLTliM2ItYTdlMTVkYzYzMDEz%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-  },
-  {
     id: "22",
     type: "Evento",
     day: 2,
@@ -393,7 +381,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad de ejercicios",
     urlPic: "",
-    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzM2OTQ4M2EtYmMyZC00MTY0LWJlMDAtNTY0MGFmMTM4MmNk%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
+    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   }
 ];
 export default data;
