@@ -50,7 +50,7 @@ export default function CustomCard(props: any) {
           />
         </div>
       </div>
-      <a target="_blank" href={card.urlPic}>
+      <a target="_blank" href={card.meeting}>
         <CardMedia component="img" height="200px" image={card.urlPic} />
       </a>
       <CardContent>
@@ -60,18 +60,21 @@ export default function CustomCard(props: any) {
         <strong>Hora: </strong>
         <label>{card.hour}</label>
       </CardContent>
-      <CardActions disableSpacing style={{ marginTop: "auto" }}>
-        <IconButton onClick={() => null} aria-label="like">
-          <AttachFileIcon style={{ color: "white" }} />
-        </IconButton>
-        <Button
-          href={card.meeting}
-          target="_blank"
-          style={{ backgroundColor: colors.PRIMARY, color: "white" }}
-        >
-          Ir a a la reunión
-        </Button>
-      </CardActions>
+      {
+        card.meeting !== "" && 
+        <CardActions disableSpacing style={{ marginTop: "auto" }}>
+          <IconButton onClick={() => null} aria-label="like">
+            <AttachFileIcon style={{ color: "white" }} />
+          </IconButton>
+          <Button
+            href={card.meeting}
+            target="_blank"
+            style={{ backgroundColor: colors.PRIMARY, color: "white" }}
+          >
+            Ir a a la reunión
+          </Button>
+        </CardActions>
+      }
     </Card>
   );
 }

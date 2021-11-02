@@ -11,7 +11,7 @@ const data: ICard[] = [
     title: "Conferencia de apertura",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fapertura.min.jpg?alt=media&token=bbea7d8a-f70a-4952-a4f1-db4f6acb09a9",
-    meeting: "",
+    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FmN2M0ZjQtZjU2Mi00MzU3LWIzNDEtMWIxYWIwZmQ4NjMw%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "2",
@@ -23,7 +23,7 @@ const data: ICard[] = [
     title: "La Economía Circular como modelo de sostenibilidad",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fandercol.min.jpg?alt=media&token=1aba5bc3-29a4-41b1-a95d-a8bd97022b7f",
-    meeting: "",
+    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FmN2M0ZjQtZjU2Mi00MzU3LWIzNDEtMWIxYWIwZmQ4NjMw%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "3",
@@ -32,10 +32,10 @@ const data: ICard[] = [
     date: "3/11/2021",
     hour: "Todo el día",
     modality: "Remoto",
-    title: "Trabajos dirigidos - trabajos de grado posgrado",
+    title: "Muestra de posters - Semilleros - trabajos dirigidos - trabajos de grado posgrado",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fsemillero.min.jpg?alt=media&token=182593de-a591-4732-9da0-a6ce134d2d49",
-    meeting: "",
+    meeting: "https://eciciencia-posters.web.app/",
   },
   {
     id: "4",
@@ -47,7 +47,8 @@ const data: ICard[] = [
     title: "La ingeniería en el motorsport",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fmotorsport.min.jpg?alt=media&token=6d92b6d0-ddbd-4ccc-be15-cd28006c2969",
-    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjZjMDkwZDItZDZiMC00ZTA4LWI4MmQtZjYxNzMxYWViOWNj%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjZjMDkwZDItZDZiMC00ZTA4LWI4MmQtZjYxNzMxYWViOWNj%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "5",
@@ -111,7 +112,7 @@ const data: ICard[] = [
       "Muestra de posters - Semilleros - trabajos dirigidos - trabajos de grado posgrado",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fsemillero.min.jpg?alt=media&token=182593de-a591-4732-9da0-a6ce134d2d49",
-    meeting: "",
+    meeting: "https://eciciencia-posters.web.app/",
   },
   {
     id: "10",
@@ -179,7 +180,7 @@ const data: ICard[] = [
       "Muestra de posters - Semilleros - trabajos dirigidos - trabajos de grado posgrado",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fsemillero.min.jpg?alt=media&token=182593de-a591-4732-9da0-a6ce134d2d49",
-    meeting: "",
+    meeting: "https://eciciencia-posters.web.app/",
   },
   {
     id: "15",
@@ -228,8 +229,9 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad de ejercicios",
     urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1837486693.jpg?alt=media&token=a3167422-06ab-43c4-adc9-780164127db1",
+    meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-    meeting: "",
   },
   {
     id: "19",
@@ -240,8 +242,9 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Crea con IISE (M)",
     urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2FISEEjpg.jpg?alt=media&token=6288ebcc-e9eb-4619-9fd5-d296a1302f61",
+    meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTg1OTBlNzAtYzk2NC00OTVkLWJkYjYtMDNhYjE1OGRlZWQw%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-    meeting: "",
   },
   {
     id: "20",
@@ -249,10 +252,12 @@ const data: ICard[] = [
     day: 1,
     date: "3/11/2021",
     hour: "03:00 a 03:30 p.m.",
-    modality: "Remoto", // Es presencial ?
+    modality: "Remoto",
     title: "Actividad cuida tu salud",
-    urlPic: "",
-    meeting: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1726536925.jpg?alt=media&token=a9eae143-6c9d-46f8-bce3-fef3926e38c1",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2QxMjQwZDEtM2Y5Yy00ZGIzLThlYzAtZGJhNWU1NThiMDRi%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "22",
@@ -262,8 +267,10 @@ const data: ICard[] = [
     hour: "03:00 a 03:30 p.m.",
     modality: "Presencial",
     title: "Actividad cuida tu salud",
-    urlPic: "",
-    meeting: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1726536925.jpg?alt=media&token=a9eae143-6c9d-46f8-bce3-fef3926e38c1",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDMwNTYxMDMtNmJlNy00ZmZlLTkwOWQtYmVmYmE3YmQ2MzQ4%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "23",
@@ -273,20 +280,10 @@ const data: ICard[] = [
     hour: "04:00 a 06:00 p.m.",
     modality: "Remoto",
     title: "¿Qué tanto sabes de fundamentos Económicos?",
-    urlPic: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1746145268.jpg?alt=media&token=7d25c27b-f4d1-40f1-ae75-5a5c959200df",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWM3ZjI3ODQtMGJkNC00ODY3LTk2MDUtN2Y1NGZkMDk0Zjlj%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-  },
-  {
-    id: "24",
-    type: "Evento",
-    day: 3,
-    date: "5/11/2021",
-    hour: "09:00 a 10:00 a.m.",
-    modality: "Presencial",
-    title: "Reto de liderazgo",
-    urlPic: "",
-    meeting: "",
   },
   {
     id: "25",
@@ -296,7 +293,8 @@ const data: ICard[] = [
     hour: "10:00 a 10:30 a.m.",
     modality: "Remoto",
     title: "Maraton de rumba Aeróbicos (M)",
-    urlPic: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_431736280.jpg?alt=media&token=e034022d-f9a6-4607-9385-75b1e2eba8b6",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1ZjU5MTYtNTVhMC00YjEzLTlmZTEtMmUxMjM5ZDdiNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -308,7 +306,8 @@ const data: ICard[] = [
     hour: "11:30 a 01:30 p.m.",
     modality: "Remoto",
     title: "Crea con IISE (M)",
-    urlPic: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2FISEEjpg.jpg?alt=media&token=6288ebcc-e9eb-4619-9fd5-d296a1302f61",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTUyNTZkNTYtMDBlZC00ZWY5LTliMTItNzc1YTg3M2UwNGRi%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -320,7 +319,8 @@ const data: ICard[] = [
     hour: "01:00 a 02:00 p.m.",
     modality: "Remoto",
     title: "Al Tablero",
-    urlPic: "",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1897317643.jpg?alt=media&token=a6e611a6-deb1-4653-9d5d-c1e3c9def087",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNzQ0OTUtM2ZkMi00Y2FmLWJkNjQtMjgxMmJhZWY1OGFk%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -332,7 +332,7 @@ const data: ICard[] = [
     hour: "08:00 a 10:00 a.m.",
     modality: "Remoto",
     title: "Seis claves para tener éxito en e-commerce ed 2021-2022 ( R )",
-    urlPic: "",
+    urlPic: "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fseis-claves-exitojpg.jpg?alt=media&token=ea22c989-b522-46ef-938e-9b5c843a9dd9",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTg1YzNkZjktZGVkMy00YTRiLWJlMmQtN2RiZjEzNGQ1MzJj%40thread.v2/0?context=%7b%22Tid%22%3a%",
   },
@@ -344,7 +344,7 @@ const data: ICard[] = [
     hour: "11:30 a 01:00 p.m.",
     modality: "Remoto",
     title: "Gestión de la Innovación en tiempos de economía Naranja ( R )",
-    urlPic: "",
+    urlPic: "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Feconomia-naranja.jpg?alt=media&token=e84572a4-a051-4248-9993-fd5a48c83e32",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmJkNWYxYzQtODNkNi00NWM5LWIxMWYtOWMwNjU1ZGNiNDQ0%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2239a1dd36-2c64-4ad9-b3b8-a2b1fcba7fde%22%7d",
   },
@@ -356,7 +356,7 @@ const data: ICard[] = [
     hour: "01:00 a 02:30 p.m.",
     modality: "Remoto",
     title: "Construcciones sostenibles en Colombia ( R )",
-    urlPic: "",
+    urlPic: "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fconstruccion-sostenible.jpg?alt=media&token=da911566-4ac1-447c-88fe-421b713ae3e1",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTVmYTVhNDUtYjY3OS00YWUwLThhMWUtOTQ4NGYzNjk1YWVh%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2239a1dd36-2c64-4ad9-b3b8-a2b1fcba7fde%22%7d",
   },
@@ -368,7 +368,7 @@ const data: ICard[] = [
     hour: "02:30 a 04:00 p.m.",
     modality: "Remoto",
     title: "Buenas prácticas del manejo de residuos generados en el hogar (R)",
-    urlPic: "",
+    urlPic: "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fmanejo-residuos.jpg?alt=media&token=43a28f59-d92b-42d2-a4a1-ca0e25434977",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWQ1MDZkMDItZjhmNC00OTM3LTgzZDItZWY5YzQ3Y2JmZTgz%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2239a1dd36-2c64-4ad9-b3b8-a2b1fcba7fde%22%7d",
   },
@@ -380,8 +380,36 @@ const data: ICard[] = [
     hour: "10:00 a 10:30 a.m.",
     modality: "Remoto",
     title: "Actividad de ejercicios",
-    urlPic: "",
-    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-  }
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1837486693.jpg?alt=media&token=a3167422-06ab-43c4-adc9-780164127db1",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
+  },
+  {
+    id: "33",
+    type: "Evento",
+    day: 3,
+    date: "5/11/2021",
+    hour: "10:00 a 10:30 a.m.",
+    modality: "Remoto",
+    title: "Maraton de rumba Aeróbicos (M)",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_431736280.jpg?alt=media&token=e034022d-f9a6-4607-9385-75b1e2eba8b6",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1ZjU5MTYtNTVhMC00YjEzLTlmZTEtMmUxMjM5ZDdiNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
+  },
+  {
+    id: "34",
+    type: "Evento",
+    day: 1,
+    date: "3/11/2021 a 4/11/2021",
+    hour: "08:00 a.m. a 11:59 p.m.",
+    modality: "Remoto",
+    title: "Hackathon: #ElectrónicaCreativa - 48 horas",
+    urlPic:
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1412228831.jpg?alt=media&token=08ff8cf5-97cb-4187-b31e-dee86eb2e6dd",
+    meeting:
+      "https://forms.office.com/pages/responsepage.aspx?id=hAVkUEAqFkKoS5s-4PP2z8fIxMJcDmdJpvg9ffJXSDZUM1lDQUJRV1VSUjBCSEpKT1YyWEhDNDIyRC4u",
+  },
 ];
 export default data;

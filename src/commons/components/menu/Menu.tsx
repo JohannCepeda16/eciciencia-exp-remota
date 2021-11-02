@@ -108,6 +108,7 @@ export default function TemporaryDrawer(props: any) {
                 marginRight: "auto",
                 width: "100px",
                 height: "100px",
+                marginBottom:"10px",
 				borderRadius:"50%"
               }}
               src="https://firebasestorage.googleapis.com/v0/b/eciciencia-posters.appspot.com/o/logo.png?alt=media&token=401acbb1-cb5d-471a-bdaf-39ce5a7c455c"
