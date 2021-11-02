@@ -44,7 +44,7 @@ const data: ICard[] = [
     id: "4",
     type: "Conferencia",
     day: 1,
-    date: "2/11/2021",
+    date: "3/11/2021",
     hour: "2:00 a 3:00 p.m.",
     modality: "Remoto",
     title: "La ingeniería en el motorsport",
