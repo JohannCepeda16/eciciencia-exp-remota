@@ -5,6 +5,7 @@ import CustomMenuItem from "../../../commons/components/menu/CustomMenuItem";
 
 export default function TemporaryDrawer(props: any) {
   const filterAction = props.filterAction;
+
   const list = () => (
     <List>
       {[
