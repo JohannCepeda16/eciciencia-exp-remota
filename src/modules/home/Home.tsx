@@ -28,7 +28,10 @@ export default function Home() {
     } else {
       customFilterData = data;
     }
-    setFilterData([...customFilterData]);
+
+    let orderData = customFilterData.sort((a,b) => (a.date <= b.date) ? 1 : ((b.date > a.date) ? -1 : 0))
+
+    setFilterData([...orderData]);
   };
 
   useEffect(() => {

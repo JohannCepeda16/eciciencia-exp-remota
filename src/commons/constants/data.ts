@@ -41,13 +41,13 @@ const data: ICard[] = [
     id: "4",
     type: "Conferencia",
     day: 1,
-    date: "3/11/2021",
+    date: "2/11/2021",
     hour: "2:00 a 3:00 p.m.",
     modality: "Remoto",
     title: "La ingeniería en el motorsport",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fmotorsport.min.jpg?alt=media&token=6d92b6d0-ddbd-4ccc-be15-cd28006c2969",
-    meeting: "",
+    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjZjMDkwZDItZDZiMC00ZTA4LWI4MmQtZjYxNzMxYWViOWNj%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
     id: "5",
