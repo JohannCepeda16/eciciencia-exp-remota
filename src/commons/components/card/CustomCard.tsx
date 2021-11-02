@@ -54,14 +54,13 @@ export default function CustomCard(props: any) {
         <CardMedia component="img" height="200px" image={card.urlPic} />
       </a>
       <CardContent>
-        <strong>Fecha: </strong>
-        <label>{card.date}</label>
+        <strong style={{ color: "black" }}>Fecha: </strong>
+        <label style={{ color: "black" }}>{card.date}</label>
         <div></div>
-        <strong>Hora: </strong>
-        <label>{card.hour}</label>
+        <strong style={{ color: "black" }}>Hora: </strong>
+        <label style={{ color: "black" }}>{card.hour}</label>
       </CardContent>
-      {
-        card.meeting !== "" && 
+      {card.meeting !== "" && (
         <CardActions disableSpacing style={{ marginTop: "auto" }}>
           <IconButton onClick={() => null} aria-label="like">
             <AttachFileIcon style={{ color: "white" }} />
@@ -74,7 +73,7 @@ export default function CustomCard(props: any) {
             Ir a a la reunión
           </Button>
         </CardActions>
-      }
+      )}
     </Card>
   );
 }

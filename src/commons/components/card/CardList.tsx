@@ -1,4 +1,3 @@
-
 import { Grid } from "@mui/material";
 import colors from "../../constants/colors";
 import CustomCard from "./CustomCard";
@@ -10,13 +9,14 @@ export interface ICardList {
 }
 
 export default function CardList(props: ICardList) {
-  const {cards, title} = props;
+  const { cards, title } = props;
   return (
     <div>
       <div
         style={{
           display: "flex",
           alignItems: "center",
+          alignSelf: "center",
           justifyContent: "center",
           marginTop: "20px",
           marginBottom: "20px",
@@ -27,10 +27,12 @@ export default function CardList(props: ICardList) {
           xs={12}
           md={12}
           style={{
-            backgroundColor: colors.THIRD,
+            backgroundColor: colors.PRIMARY,
           }}
         >
-          <h1 style={{ textAlign: "center", color: colors.SECONDARY }}>
+          <h1
+            style={{ alignSelf: "center", textAlign: "center", color: "white" }}
+          >
             {title}
           </h1>
         </Grid>
