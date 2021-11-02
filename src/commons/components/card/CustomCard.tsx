@@ -70,7 +70,7 @@ export default function CustomCard(props: any) {
             target="_blank"
             style={{ backgroundColor: colors.PRIMARY, color: "white" }}
           >
-            Ir a a la reunión
+            Ir a la reunión
           </Button>
         </CardActions>
       )}
