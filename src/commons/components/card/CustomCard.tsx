@@ -13,7 +13,8 @@ import "./CustomCard.css";
 import { ICard } from "../../types/ICard";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import colors from "../../../commons/constants/colors";
-
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import ScheduleIcon from "@mui/icons-material/Schedule";
 export interface IProps {
   card: ICard;
 }
@@ -31,7 +32,7 @@ export default function CustomCard(props: any) {
       style={{
         backgroundColor: "#264474",
         margin: "10px",
-        alignSelf:"center"
+        alignSelf: "center",
       }}
     >
       <div>
@@ -55,11 +56,29 @@ export default function CustomCard(props: any) {
         <CardMedia component="img" height="200px" image={card.urlPic} />
       </a>
       <CardContent>
-        <strong style={{ color: colors.FOURTH }}>Fecha: </strong>
-        <label style={{ color: "white" }}>{card.date}</label>
+        <div style={{display:"flex",  alignItems:"center"}}>
+          <CalendarTodayIcon
+            style={{ alignSelf: "center", margin: "10px", color: "white" }}
+          />
+          <strong style={{ color: "white", alignSelf: "center", marginRight:"25px" }}>
+            Fecha:
+          </strong>
+          <label style={{ color: "white", alignSelf: "center" }}>
+            {card.date}
+          </label>
+        </div>
         <div></div>
-        <strong style={{ color: colors.FOURTH }}>Hora: </strong>
-        <label style={{ color: "white" }}>{card.hour}</label>
+        <div style={{display:"flex",  alignItems:"center"}}>
+          <ScheduleIcon
+            style={{ alignSelf: "center", margin: "10px", color: "white" }}
+          />
+          <strong style={{ color: "white", alignSelf: "center", marginRight:"25px" }}>
+            Hora:
+          </strong>
+          <label style={{ color: "white", alignSelf: "center" }}>
+            {card.hour}
+          </label>
+        </div>
       </CardContent>
       {card.meeting !== "" && (
         <CardActions disableSpacing style={{ marginTop: "auto" }}>
