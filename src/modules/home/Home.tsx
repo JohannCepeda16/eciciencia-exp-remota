@@ -1,17 +1,17 @@
 import { Grid } from "@mui/material";
 import Banner from "../../commons/components/banner/Banner";
 import Menu from "../../commons/components/menu/Menu";
-import data from "../../commons/constants/data";
 import CustomCard from "../../commons/components/card/CustomCard";
 import colors from "../../commons/constants/colors";
 import CardList from "../../commons/components/card/CardList";
 import { ICard } from "../../commons/types/ICard";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+export default function Home(props: any) {
+  let data: ICard[] = props.data;
   const [day, setDay] = useState(0);
   const [filter, setFilter] = useState("Todo");
-  const [filterData, setFilterData] = useState<ICard[]>(data);
+  const [filterData, setFilterData] = useState<ICard[]>(props.data);
 
   const filterAction = (day: number, valueType: string) => {
     setDay(day);
