@@ -6,7 +6,7 @@ import {
   casosExito,
   economiaCircular,
   economiaNaranja,
-  economiaPlasticos,
+  eocnomiaPlasticos,
   ganaderia,
   motorsport,
   normalizacion,
@@ -104,7 +104,7 @@ const data: ICard[] = [
     hour: "09:00 a 10:00 a.m",
     modality: "Remoto",
     title: "Economía circular en los plásticos",
-    urlPic: economiaPlasticos,
+    urlPic: eocnomiaPlasticos,
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjhmZDJiZmItYTBiNi00OTY4LTk0ZWEtMTc0ZTY2NGIxMTdi%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
