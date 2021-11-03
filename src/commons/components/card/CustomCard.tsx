@@ -31,6 +31,7 @@ export default function CustomCard(props: any) {
       style={{
         backgroundColor: "#264474",
         margin: "10px",
+        alignSelf:"center"
       }}
     >
       <div>
@@ -54,11 +55,11 @@ export default function CustomCard(props: any) {
         <CardMedia component="img" height="200px" image={card.urlPic} />
       </a>
       <CardContent>
-        <strong style={{ color: "black" }}>Fecha: </strong>
-        <label style={{ color: "black" }}>{card.date}</label>
+        <strong style={{ color: colors.FOURTH }}>Fecha: </strong>
+        <label style={{ color: "white" }}>{card.date}</label>
         <div></div>
-        <strong style={{ color: "black" }}>Hora: </strong>
-        <label style={{ color: "black" }}>{card.hour}</label>
+        <strong style={{ color: colors.FOURTH }}>Hora: </strong>
+        <label style={{ color: "white" }}>{card.hour}</label>
       </CardContent>
       {card.meeting !== "" && (
         <CardActions disableSpacing style={{ marginTop: "auto" }}>
