@@ -384,19 +384,6 @@ const data: ICard[] = [
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
   {
-    id: "33",
-    type: "Evento",
-    day: 3,
-    date: "5/11/2021",
-    hour: "10:00 a 10:30 a.m.",
-    modality: "Remoto",
-    title: "Maraton de rumba Aeróbicos (M)",
-    urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fbaile.png?alt=media&token=6425483a-48f6-462b-a8de-9a66e5042e6b",
-    meeting:
-      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1ZjU5MTYtNTVhMC00YjEzLTlmZTEtMmUxMjM5ZDdiNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
-  },
-  {
     id: "34",
     type: "Evento",
     day: 1,
