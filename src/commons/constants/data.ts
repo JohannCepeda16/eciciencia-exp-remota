@@ -1,6 +1,18 @@
 import { ICard } from "../types/ICard";
+import { reto } from "../../assets/index";
 
 const data: ICard[] = [
+  {
+    id: "0",
+    type: "Evento",
+    day: 1,
+    date: "3/11/2021",
+    hour: "Votaciones - Todo el día",
+    modality: "Remoto",
+    title: "Votaciones - Reto de liderazgo",
+    urlPic: reto,
+    meeting: "https://eciciencia-posters.web.app/#reto-liderazgo",
+  },
   {
     id: "1",
     type: "Conferencia",

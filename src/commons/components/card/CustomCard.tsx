@@ -40,13 +40,14 @@ export default function CustomCard(props: any) {
           <strong className="tooltiptext">{card.title}</strong>
           <CardHeader
             title={
-              card.title.length > 20
-                ? card.title.slice(0, 20) + "..."
+              card.title.length > 30
+                ? card.title.slice(0, 30) + "..."
                 : card.title
             }
             style={{
               width: "100%",
               textAlign: "center",
+              alignSelf:"center",
               color: "white",
             }}
           />
