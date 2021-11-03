@@ -159,7 +159,8 @@ const data: ICard[] = [
       "Casos de éxito de organizaciones usando ITIL para gestionar sus servicios",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2FCasos_de_Exito_de_organizaciones.jpg?alt=media&token=d2ea09c0-af12-49c9-8117-a8fea9ee32e9",
-    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmY1MDhkZTItYjBjMS00YTUyLTg5NTUtZmQzMzdhYjI5YzI4%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmY1MDhkZTItYjBjMS00YTUyLTg5NTUtZmQzMzdhYjI5YzI4%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "14",
@@ -197,7 +198,8 @@ const data: ICard[] = [
     title: "¿Qué es eso de la Economía Naranja?",
     urlPic:
       "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Feconomia_naranja.min-700x600.jpg?alt=media&token=4dd82477-fe25-44e1-93ed-0665ab643642",
-    meeting: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzI5ZjkyOTItYmYyYy00NzUxLTgwZTgtNDg3ZTE2MDZmNTE5%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
+    meeting:
+      "https://teams.microsoft.com/l/meetup-join/19%3ameeting_NzI5ZjkyOTItYmYyYy00NzUxLTgwZTgtNDg3ZTE2MDZmNTE5%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
   {
     id: "17",
@@ -221,7 +223,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad de ejercicios",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1837486693.jpg?alt=media&token=a3167422-06ab-43c4-adc9-780164127db1",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Factividades.png?alt=media&token=3deda10c-9c81-4d9a-b8a1-90e45519e91d",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -247,7 +249,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad cuida tu salud",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1726536925.jpg?alt=media&token=a9eae143-6c9d-46f8-bce3-fef3926e38c1",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fmedico.png?alt=media&token=304c5c22-7bd4-4eb6-80a3-4166aa42ac41",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_M2QxMjQwZDEtM2Y5Yy00ZGIzLThlYzAtZGJhNWU1NThiMDRi%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
@@ -260,7 +262,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad cuida tu salud",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1726536925.jpg?alt=media&token=a9eae143-6c9d-46f8-bce3-fef3926e38c1",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fmedico.png?alt=media&token=304c5c22-7bd4-4eb6-80a3-4166aa42ac41",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDMwNTYxMDMtNmJlNy00ZmZlLTkwOWQtYmVmYmE3YmQ2MzQ4%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%223a41c438-1606-44f2-a5ab-1d1fa25691ce%22%7d",
   },
@@ -273,7 +275,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "¿Qué tanto sabes de fundamentos Económicos?",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1746145268.jpg?alt=media&token=7d25c27b-f4d1-40f1-ae75-5a5c959200df",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fanalisis.png?alt=media&token=a1565b36-8561-4b55-9905-65e995e9eb0e",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWM3ZjI3ODQtMGJkNC00ODY3LTk2MDUtN2Y1NGZkMDk0Zjlj%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -286,7 +288,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Maraton de rumba Aeróbicos (M)",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_431736280.jpg?alt=media&token=e034022d-f9a6-4607-9385-75b1e2eba8b6",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fbaile.png?alt=media&token=6425483a-48f6-462b-a8de-9a66e5042e6b",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1ZjU5MTYtNTVhMC00YjEzLTlmZTEtMmUxMjM5ZDdiNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -312,7 +314,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Al Tablero",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1897317643.jpg?alt=media&token=a6e611a6-deb1-4653-9d5d-c1e3c9def087",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fremote.png?alt=media&token=e00968e4-9ddd-4be0-b5b5-7381ac8cfdcf",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWUwNzQ0OTUtM2ZkMi00Y2FmLWJkNjQtMjgxMmJhZWY1OGFk%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -377,7 +379,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Actividad de ejercicios",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1837486693.jpg?alt=media&token=a3167422-06ab-43c4-adc9-780164127db1",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Factividades.png?alt=media&token=3deda10c-9c81-4d9a-b8a1-90e45519e91d",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZWNlZTYzM2UtMDdhMy00NGY3LTlmMzEtZDM5MWQ2Y2YzODJl%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -390,7 +392,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Maraton de rumba Aeróbicos (M)",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_431736280.jpg?alt=media&token=e034022d-f9a6-4607-9385-75b1e2eba8b6",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fbaile.png?alt=media&token=6425483a-48f6-462b-a8de-9a66e5042e6b",
     meeting:
       "https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yzg1ZjU5MTYtNTVhMC00YjEzLTlmZTEtMmUxMjM5ZDdiNDIy%40thread.v2/0?context=%7b%22Tid%22%3a%2250640584-2a40-4216-a84b-9b3ee0f3f6cf%22%2c%22Oid%22%3a%2277162c78-5804-446b-9140-5b1d11888be8%22%7d",
   },
@@ -403,7 +405,7 @@ const data: ICard[] = [
     modality: "Remoto",
     title: "Hackathon: #ElectrónicaCreativa - 48 horas",
     urlPic:
-      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fshutterstock_1412228831.jpg?alt=media&token=08ff8cf5-97cb-4187-b31e-dee86eb2e6dd",
+      "https://firebasestorage.googleapis.com/v0/b/eciciencia2021-exp-remota.appspot.com/o/eventws%2Fhackaton.png?alt=media&token=c773f524-76e1-47f8-9e4e-aef667234aef",
     meeting:
       "https://forms.office.com/pages/responsepage.aspx?id=hAVkUEAqFkKoS5s-4PP2z8fIxMJcDmdJpvg9ffJXSDZUM1lDQUJRV1VSUjBCSEpKT1YyWEhDNDIyRC4u",
   },
